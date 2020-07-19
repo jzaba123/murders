@@ -1,0 +1,15 @@
+      ---
+title: "Final Grade Distribution"
+output: pdf_document
+---
+```{r, echo=FALSE}
+#load(file="my_data.Rmd")
+#summary(grades)
+summary(cars)
+```
+
+
+  ```{r, echo=F}
+n <- nrow(mtcars)
+```
+Here `r n` cars are compared
